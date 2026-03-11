@@ -39,11 +39,15 @@ p{
 
 .container {
   /*background-color: #8bd3dd;*/
-  background-image: linear-gradient(rgba(255, 0, 0, 0.15), rgba(141, 102, 102, 0.75)), url("https://img.freepik.com/premium-vector/abstract-line-geometric-pattern_260839-655.jpg?semt=ais_user_personalization&w=740&q=80");
   border: 2px dashed #f582ae;
   width: 400px;
   height: 1000px;
   margin: 50px auto;
+  background-image: linear-gradient(rgba(255, 0, 0, 0.15), rgba(141, 102, 102, 0.75)), url("https://img.freepik.com/premium-vector/abstract-line-geometric-pattern_260839-655.jpg?semt=ais_user_personalization&w=740&q=80");
+  background-position: center;
+  /*background-size: contain;*/
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .name {
